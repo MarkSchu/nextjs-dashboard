@@ -161,7 +161,6 @@ async function seedRevenue(client) {
 }
 
 async function main() {
-  console.log('Do Not Seed!!!')
   return;
   const client = await db.connect();
 
